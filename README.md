@@ -23,7 +23,7 @@ I used other tools this time:
 
 To expose the juicy part, carefully remove the 3D printed part on the back. There are different components there, but the most interesting part for us is the MCU: `ATmega4809`
 
-<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Back_1.jpg" alt="thecoin_back_1" style="zoom:27%;"/>
+<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Back_1.jpg" alt="thecoin_back_1" height="45%" width="45%"/>
 
 We are interested in the MCU because the first thing that we need to do is to try to dump the firmware which, in this kind of MCU, is stored in the flash of the MCU itself. By reading the [DataSheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega4808-4809-Data-Sheet-DS40002173A.pdf) you can have an idea of the features.
 
@@ -31,7 +31,7 @@ As you can see the board exposes the PINs/interfaces on the edge of the coin (le
 
 A deeper look into the `ATmega4809` DataSheet revealed me an interesting thing: this MCU has a so called `Single-pin Unified Program Debug Interface (UPDI)` mapped on PIN 41:
 
-<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/4809_pinout.png" alt="Pinout" style="zoom:47%;"/>
+<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/4809_pinout.png" alt="Pinout" height="85%" width="85%"/>
 
 and guess what? With a multimeter I mapped this pin exactly to the only unlabelled PAD! 
 
