@@ -31,7 +31,7 @@ As you can see the board exposes the PINs/interfaces on the edge of the coin (le
 
 A deeper look into the `ATmega4809` DataSheet revealed me an interesting thing: this MCU has a so called `Single-pin Unified Program Debug Interface (UPDI)` mapped on PIN 41:
 
-<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/4809_pinout.png" alt="Pinout" height="85%" width="85%"/>
+<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/4809_pinout.png" alt="Pinout" height="75%" width="75%"/>
 
 and guess what? With a multimeter I mapped this pin exactly to the only unlabelled PAD! 
 
@@ -55,7 +55,7 @@ To do it, just follow these few steps:
 
 - now place some components on the **Arduino** (disconnect it before):
 
-  <img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/arduino_components.jpg" alt="Components" style="zoom:47%;"/>
+  <img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/arduino_components.jpg" alt="Components" height="75%" width="75%"/>
 
 - it's time to connect the **Arduino** to the **Coin**. You can use alligator clips (see picture below):
 
@@ -63,7 +63,7 @@ To do it, just follow these few steps:
   - *red* pad to **Arduino** 3.3v
   - *green* pad to Arduino PIN 6 (with resistor)
 
-  <img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Back_2.jpg" alt="Connections" style="zoom:47%;"/>
+  <img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Back_2.jpg" alt="Connections" height="45%" width="45%"/>
 
 - connect **Arduino** to your PC
 
