@@ -2,7 +2,7 @@
 
 Welcome back! This is my second edition of the "eChallengeCoin" hack guide.  This is a bage/coin/board created by [Bradán Lane Studio](https://www.tindie.com/stores/bradanlane/) and some time ago I created a guide for the [2020](https://github.com/cecio/eChallengeCoin-2020/blob/main/README.md) edition.
 
-<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Front.jpg" alt="thecoin" style="zoom:47%;"/>
+<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Front.jpg" alt="thecoin" style="zoom:27%;"/>
 
 The board contains an adventure and some games, which are very funny. But since I like reversing, I'd like to approach it finding  "my way" :-).
 
@@ -23,7 +23,7 @@ I used other tools this time:
 
 To expose the juicy part, carefully remove the 3D printed part on the back. There are different components there, but the most interesting part for us is the MCU: `ATmega4809`
 
-<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Back_1.jpg" alt="thecoin_back_1" style="zoom:47%;"/>
+<img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/Back_1.jpg" alt="thecoin_back_1" style="zoom:27%;"/>
 
 We are interested in the MCU because the first thing that we need to do is to try to dump the firmware which, in this kind of MCU, is stored in the flash of the MCU itself. By reading the [DataSheet](http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega4808-4809-Data-Sheet-DS40002173A.pdf) you can have an idea of the features.
 
