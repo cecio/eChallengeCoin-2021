@@ -33,7 +33,7 @@ A deeper look into the `ATmega4809` DataSheet revealed me an interesting thing: 
 
 <img src="https://github.com/cecio/eChallengeCoin-2021/blob/main/Pictures/4809_pinout.png" alt="Pinout" height="75%" width="75%"/>
 
-and guess what? With a multimeter I mapped this pin exactly to the only unlabelled PAD! 
+and guess what? With a multimeter I mapped this pin exactly to the only unlabelled PAD (by carefully looking at silkscreen on the back you can also guess this)! 
 
 `UPDI` is a Microchip proprietary interface for external programming and on-chip debugging of a device. Very interesting! So, let me check if I found the way...
 
