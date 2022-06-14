@@ -150,6 +150,7 @@ Offset 0x3b1c: Of course, there is also the possibility you did not solve the ch
 Offset 0x3ba7: Did you find the Easter Eggs? If not, you can read through the story again at any time.
 Offset 0x3bf5: Congratulations on completing the story and helping Sara solve the challenges.
 ...
+<REDACTED>
 ```
 
 ## Wrap up
