@@ -39,7 +39,7 @@ and guess what? With a multimeter I mapped this pin exactly to the only unlabell
 
 ## Step 2: dumping EEPROM and FLASH
 
-**WARNING**: *before following these steps, I suggest to remove the battery from the eChallengeCoin. And, as a general rule, if you do something wrong, you may brick/destroy your boards. Be careful, you are responsible of your actions!*
+**WARNING**: *before following these steps, I suggest to remove the battery from the eChallengeCoin. And, as a general rule, if you do something wrong, you may brick/destroy your board. Be careful, you are responsible of your actions!*
 
 I started to look around in order to find a way to interface with `UPDI` and I stumbled into this project:  [jtag2updi](https://github.com/ElTangas/jtag2updi)
 
